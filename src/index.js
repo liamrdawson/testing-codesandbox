@@ -1,14 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Welcome from "./components/Welcome";
+import Time from "./components/Time";
 
 import "./styles.css";
 
+const element = <Welcome name="Liam" />;
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
+    <React.Fragment>
+      <Welcome />
+      <Time className="time" />
+    </React.Fragment>
   );
 }
 

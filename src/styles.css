@@ -3,10 +3,16 @@
   text-align: center;
 }
 
+.time,
+h2 {
+  text-align: center;
+}
+
 h1 {
   border-radius: 8px;
   width: 250px;
-  margin: 0 auto;
+  margin: 20px auto;
   background-color: royalblue;
   color: #fff;
+  text-align: center;
 }
